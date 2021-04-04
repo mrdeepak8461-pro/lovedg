@@ -1,0 +1,51 @@
+body {
+  margin: 0rem;
+  padding: 0rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-image: url("https://storage.pixteller.com/designs/designs-images/2019-03-27/05/love-and-passion-background-backgrounds-love-1-5c9b9953a1468.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.card {
+  border: 1px solid red;
+  width: 90%;
+  background-image: url("../img/IMG-20190708-WA0002.jpg");
+  background-position: center;
+}
+
+.form-control {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+::-webkit-input-placeholder {
+  color: red;
+}
+
+:-ms-input-placeholder {
+  color: red;
+}
+
+::-ms-input-placeholder {
+  color: red;
+}
+
+::placeholder {
+  color: red;
+}
+/*# sourceMappingURL=main.css.map */
